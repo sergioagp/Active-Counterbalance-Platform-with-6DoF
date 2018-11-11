@@ -1,0 +1,2 @@
+# Active Counter-Balance Platform with 6 Degrees of Fredoom
+This project focuses on the development of a Stewart Platform with 6 Degrees of Freedom (DoF), that aims to stabilize a ball in its center. The infrastructure is supported by a FreeRTOS application with multiple tasks (which handle the sensors and motors) and a lightweight TCP/IP stack. Via a GUI application developed using Qt, that connects to the platform by Ethernet using TCP/IP protocol, PID parameters can be managed remotely and the system may be monitorized from distance.
